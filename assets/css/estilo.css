@@ -1,0 +1,62 @@
+body{
+	font-family: arial;
+}
+
+.container_login{
+ 
+	justify-content: center;
+	padding: 30px;
+	
+	 
+}
+
+.login{
+	border: 1px solid #ddd;
+	 
+	border-radius: 10px;
+
+}
+
+.cursos{
+	text-align: center;
+	
+}
+.cursos .img_curso{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin-top: 20px;
+
+	transition:.5s;
+		box-shadow: 0 3px 15px-7px red;
+  
+}
+
+.img_curso:hover{
+
+	 transition:.5s;
+		box-shadow: 0 10px 15px 3px red;
+}
+
+.cursos .img_curso div{
+	border-top: 1px solid #ddd;
+ }
+
+
+
+ .sair{
+ 	 
+ 	width: 50px;
+ 	height: 50px;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	border-radius: 10px;
+ 	
+ }
+ .sair:hover{
+ 	background-color: #ddd;
+ 	width: 50px;
+ 	height: 50px;
+ 	line-height: 50px;
+ 	text-align: center;
+ 	border-radius: 10px;
+ }
